@@ -66,16 +66,20 @@ Inferno. A modern Apache-2.0 alternative to Mirth Connect: no JVM, no installer,
 
 <img src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/bitvoice.svg" alt="" width="64" height="64" align="left">
 
-### BitVoice
-**Open-source real-time communications engine.**
+### [BitVoice](https://github.com/BioDream-LLC/bitvoice)
+**Open-source phone system and NG911 call handling.**
 
 <br clear="left">
 
-A phone system written from the ground up in Go: SIP, SRTP, WebRTC, queues, recording and voicemail, all
-configured from a built-in web console. Designed for the reliability that 911 call handling demands.
+One Go binary: a complete office phone system, NG911 call handling, a P25 radio dispatch console and
+NG911 Core Services, all configured from a built-in web console and built to the 911 reliability bar.
 
-![Status](https://img.shields.io/badge/status-in%20development-6d6bff)
-![License](https://img.shields.io/badge/license-Apache%202.0-blue)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](https://github.com/BioDream-LLC/bitvoice/blob/main/LICENSE)
+[![PBX](https://img.shields.io/badge/PBX-working-success)](https://github.com/BioDream-LLC/bitvoice#what-works-today)
+[![911](https://img.shields.io/badge/911-not%20yet%20certified-orange)](https://github.com/BioDream-LLC/bitvoice)
+[![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)](https://go.dev)
+
+[**Source**](https://github.com/BioDream-LLC/bitvoice) · [**What works today**](https://github.com/BioDream-LLC/bitvoice#what-works-today)
 
 </td>
 <td width="50%" valign="top">
