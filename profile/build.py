@@ -3,7 +3,7 @@
 
 Every product card and the banner come in a dark and a light variant, matching the visitor's GitHub
 theme through <picture> (the only media query GitHub honours). Cards are drawn at phone proportions
-and shown 430 px wide: two to a row on a desktop, one per row on a phone, readable on both. GitHub paints a grey square behind transparent images and cannot style tables as cards,
+and shown 415 px wide: two to a row on a desktop, one per row on a phone, readable on both. GitHub paints a grey square behind transparent images and cannot style tables as cards,
 so each card is drawn complete, shadow included, as one SVG.
 
 Run from this directory: python3 build.py  (standard library only)
@@ -212,7 +212,7 @@ def card(p, theme, layout, min_h=0, phase=0.0):
     H = max(int(chips_end + ip + pad), min_h)
     ch = H - 2 * pad
 
-    parts.append(f'<rect class="glow" x="{pad + 6}" y="{pad + 14}" width="{cw - 12}" height="{ch - 8}" rx="26" '
+    parts.append(f'<rect class="glow" x="{pad - 4}" y="{pad + 8}" width="{cw + 8}" height="{ch + 2}" rx="26" '
                  f'fill="url(#glowfill)" filter="url(#soft)"/>')
     parts.append(f'<rect x="{pad}" y="{pad}" width="{cw}" height="{ch}" rx="22" fill="url(#cardfill)" '
                  f'stroke="{t["border"]}" stroke-width="1.5" filter="url(#lift)"/>')
@@ -245,11 +245,11 @@ def card(p, theme, layout, min_h=0, phase=0.0):
             f'<stop offset="0.5" stop-color="#f58220"/><stop offset="1" stop-color="#ea580c"/></linearGradient>'
             f'<linearGradient id="warmfill" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#f58220" stop-opacity="{0.20 if theme == "dark" else 0.10}"/>'
             f'<stop offset="0.55" stop-color="#f58220" stop-opacity="0.04"/><stop offset="1" stop-color="#ffb347" stop-opacity="{0.12 if theme == "dark" else 0.06}"/></linearGradient>'
-            f'<filter id="soft" x="-15%" y="-15%" width="130%" height="135%"><feGaussianBlur stdDeviation="16"/></filter>'
+            f'<filter id="soft" x="-15%" y="-15%" width="130%" height="135%"><feGaussianBlur stdDeviation="20"/></filter>'
             + f'<filter id="lift" x="-5%" y="-8%" width="110%" height="125%">'
             f'<feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="{t["shadow"]}" flood-opacity="{t["shadow_op"]}"/>'
             f'</filter></defs>')
-    style = (f'<style>@keyframes glow{{0%,100%{{opacity:0.15}}50%{{opacity:{0.85 if theme == "dark" else 0.55}}}}}'
+    style = (f'<style>@keyframes glow{{0%,100%{{opacity:0.25}}50%{{opacity:{1 if theme == "dark" else 0.7}}}}}'
              f'@keyframes warm{{0%,100%{{opacity:0}}50%{{opacity:1}}}}'
              f'.glow{{animation:glow 4.8s ease-in-out infinite;animation-delay:-{phase:.2f}s}}'
              f'.warm{{animation:warm 4.8s ease-in-out infinite;animation-delay:-{phase:.2f}s}}'
