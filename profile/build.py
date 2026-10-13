@@ -155,7 +155,7 @@ PRODUCTS = [
 # about 345 px on a phone, so text stays near 15 px or more on screen in both.
 LAYOUT = {
     "wide": dict(W=1200, pad=28, ip=40, icon=104, title=46, tag=26, body=24, lead=36, chip=20, chip_h=40, gap=26),
-    "narrow": dict(W=720, pad=24, ip=40, icon=120, title=60, tag=34, body=32, lead=46, chip=28, chip_h=56, gap=30),
+    "narrow": dict(W=740, pad=40, ip=40, icon=120, title=60, tag=34, body=32, lead=46, chip=28, chip_h=56, gap=30),
 }
 
 
@@ -174,7 +174,7 @@ def chips_svg(chips, x, y, L, t, theme, maxw):
     return "".join(out), cy + L["chip_h"]
 
 
-def card(p, theme, layout, min_h=0):
+def card(p, theme, layout, min_h=0, phase=0.0):
     t, L = THEMES[theme], LAYOUT[layout]
     W, pad, ip = L["W"], L["pad"], L["ip"]
     cw = W - 2 * pad                     # card width
@@ -212,10 +212,13 @@ def card(p, theme, layout, min_h=0):
     H = max(int(chips_end + ip + pad), min_h)
     ch = H - 2 * pad
 
+    parts.append(f'<rect class="glow" x="{pad + 6}" y="{pad + 14}" width="{cw - 12}" height="{ch - 8}" rx="26" '
+                 f'fill="url(#glowfill)" filter="url(#soft)"/>')
     parts.append(f'<rect x="{pad}" y="{pad}" width="{cw}" height="{ch}" rx="22" fill="url(#cardfill)" '
                  f'stroke="{t["border"]}" stroke-width="1.5" filter="url(#lift)"/>')
     # Accent: a glow in the top-left corner and a bar along the left edge.
     parts.append(f'<rect x="{pad}" y="{pad}" width="{cw}" height="{ch}" rx="22" fill="url(#accentglow)"/>')
+    parts.append(f'<rect class="warm" x="{pad}" y="{pad}" width="{cw}" height="{ch}" rx="22" fill="url(#warmfill)"/>')
     parts.append(f'<rect x="{pad}" y="{pad + 26}" width="5" height="{ch - 52}" rx="2.5" fill="{p["accent"]}"/>')
     parts.append(icon)
     parts.append(f'<text x="{tx}" y="{title_y:.1f}" font-size="{L["title"]}" font-weight="800" fill="{t["text"]}" '
@@ -238,13 +241,23 @@ def card(p, theme, layout, min_h=0):
             f'<radialGradient id="accentglow" cx="0" cy="0" r="0.75" gradientTransform="scale(0.6 1)">'
             f'<stop offset="0" stop-color="{p["accent"]}" stop-opacity="{0.16 if theme == "dark" else 0.09}"/>'
             f'<stop offset="1" stop-color="{p["accent"]}" stop-opacity="0"/></radialGradient>'
-            f'<filter id="lift" x="-5%" y="-8%" width="110%" height="125%">'
+            f'<linearGradient id="glowfill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb347"/>'
+            f'<stop offset="0.5" stop-color="#f58220"/><stop offset="1" stop-color="#ea580c"/></linearGradient>'
+            f'<linearGradient id="warmfill" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#f58220" stop-opacity="{0.20 if theme == "dark" else 0.10}"/>'
+            f'<stop offset="0.55" stop-color="#f58220" stop-opacity="0.04"/><stop offset="1" stop-color="#ffb347" stop-opacity="{0.12 if theme == "dark" else 0.06}"/></linearGradient>'
+            f'<filter id="soft" x="-15%" y="-15%" width="130%" height="135%"><feGaussianBlur stdDeviation="16"/></filter>'
+            + f'<filter id="lift" x="-5%" y="-8%" width="110%" height="125%">'
             f'<feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="{t["shadow"]}" flood-opacity="{t["shadow_op"]}"/>'
             f'</filter></defs>')
+    style = (f'<style>@keyframes glow{{0%,100%{{opacity:0.15}}50%{{opacity:{0.85 if theme == "dark" else 0.55}}}}}'
+             f'@keyframes warm{{0%,100%{{opacity:0}}50%{{opacity:1}}}}'
+             f'.glow{{animation:glow 4.8s ease-in-out infinite;animation-delay:-{phase:.2f}s}}'
+             f'.warm{{animation:warm 4.8s ease-in-out infinite;animation-delay:-{phase:.2f}s}}'
+             f'@media (prefers-reduced-motion: reduce){{.glow,.warm{{animation:none}}.glow{{opacity:0.45}}.warm{{opacity:0.5}}}}</style>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
             f'aria-label="{esc(p["name"])}: {esc(p["tagline"])}">'
             f'<title>{esc(p["name"])}</title><desc>{esc(p["tagline"] + " " + p["body"])}</desc>'
-            f'{defs}<g font-family="{FONT}">{"".join(parts)}</g></svg>\n'), H
+            f'{style}{defs}<g font-family="{FONT}">{"".join(parts)}</g></svg>\n'), H
 
 
 # ---------------------------------------------------------------- banner
@@ -306,11 +319,12 @@ def main():
     for theme in THEMES:
         with open(os.path.join(OUT, f"banner-{theme}.svg"), "w") as f:
             f.write(banner(theme))
+        order = [k for row in ROWS for k in row]
         for row in ROWS:
             h = max(card(by_key[k], theme, "narrow")[1] for k in row)
             for k in row:
                 with open(os.path.join(OUT, f"card-{k}-{theme}.svg"), "w") as f:
-                    f.write(card(by_key[k], theme, "narrow", h)[0])
+                    f.write(card(by_key[k], theme, "narrow", h, 4.8 - 1.2 * order.index(k))[0])
     with open(os.path.join(HERE, "assets", "bitvoice.svg"), "w") as f:
         f.write(standalone_icon(BITVOICE_INNER, "BitVoice", "A voice waveform inside a rounded square."))
     with open(os.path.join(HERE, "assets", "bitdispatcher.svg"), "w") as f:
