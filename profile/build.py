@@ -249,11 +249,9 @@ def card(p, theme, layout, min_h=0, phase=0.0):
             + f'<filter id="lift" x="-5%" y="-8%" width="110%" height="125%">'
             f'<feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="{t["shadow"]}" flood-opacity="{t["shadow_op"]}"/>'
             f'</filter></defs>')
-    style = (f'<style>@keyframes glow{{0%,100%{{opacity:0.25}}50%{{opacity:{1 if theme == "dark" else 0.7}}}}}'
-             f'@keyframes warm{{0%,100%{{opacity:0}}50%{{opacity:1}}}}'
-             f'.glow{{animation:glow 4.8s ease-in-out infinite;animation-delay:-{phase:.2f}s}}'
-             f'.warm{{animation:warm 4.8s ease-in-out infinite;animation-delay:-{phase:.2f}s}}'
-             f'@media (prefers-reduced-motion: reduce){{.glow,.warm{{animation:none}}.glow{{opacity:0.45}}.warm{{opacity:0.5}}}}</style>')
+    # A steady glow. GitHub shows these as images, which cannot react to the mouse, so there is no hover state.
+    style = (f'<style>.glow{{opacity:{0.75 if theme == "dark" else 0.5}}}'
+             f'.warm{{opacity:0.7}}</style>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
             f'aria-label="{esc(p["name"])}: {esc(p["tagline"])}">'
             f'<title>{esc(p["name"])}</title><desc>{esc(p["tagline"] + " " + p["body"])}</desc>'
