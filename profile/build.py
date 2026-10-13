@@ -295,7 +295,7 @@ def standalone_icon(inner, name, desc):
             f'{inner}</svg>\n')
 
 
-ROWS = [("biodream", "perfuse"), ("bitvoice", "bitdispatcher")]
+ROWS = [("perfuse", "bitvoice"), ("bitdispatcher", "biodream")]
 
 
 def main():
