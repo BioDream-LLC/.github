@@ -117,6 +117,22 @@ BITDISPATCHER_INNER = (
     '<circle cx="48" cy="40" r="5.5" fill="#0f172a"/>')
 
 
+VAGLIO_INNER = (
+    '<defs><linearGradient id="vgg" gradientUnits="userSpaceOnUse" x1="20" y1="14" x2="76" y2="70">'
+    '<stop offset="0" stop-color="#f0abfc"/><stop offset=".5" stop-color="#c084fc"/><stop offset="1" stop-color="#8b5cf6"/>'
+    '</linearGradient><clipPath id="vgbowl"><path d="M22 38 A26 26 0 0 0 74 38 Z"/></clipPath></defs>'
+    '<g fill="url(#vgg)"><circle cx="36" cy="21" r="3.6"/><circle cx="48" cy="15" r="3.6"/><circle cx="60" cy="23" r="3.6"/></g>'
+    '<g clip-path="url(#vgbowl)" stroke="#c4b5fd" stroke-opacity=".55" stroke-width="1.8">'
+    '<path d="M32 38 V66 M40 38 V66 M48 38 V66 M56 38 V66 M64 38 V66 M20 47 H76 M20 55 H76"/></g>'
+    '<path d="M22 38 A26 26 0 0 0 74 38" fill="none" stroke="url(#vgg)" stroke-width="4.5" stroke-linecap="round"/>'
+    '<path d="M16 38 H80" stroke="url(#vgg)" stroke-width="4.5" stroke-linecap="round"/>'
+    '<path d="M38 75 l7 7 l14 -14" fill="none" stroke="#34d399" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def icon_vaglio(x, y, s):
+    return icon_frame(x, y, s, VAGLIO_INNER)
+
+
 def icon_bitvoice(x, y, s):
     return icon_frame(x, y, s, BITVOICE_INNER)
 
@@ -143,6 +159,12 @@ PRODUCTS = [
               "console and NG911 Core Services, configured from a built-in web console and built to the "
               "911 reliability bar.",
          chips=[("Apache 2.0", BLUE), ("PBX · working", GREEN), ("911 · not yet certified", AMBER)]),
+    dict(key="vaglio", name="Vaglio", accent="#a855f7", icon=icon_vaglio,
+         tagline="Prior authorization that proves its answer.",
+         body="A decision engine for health plans that cannot deny care without proving why. Every answer "
+              "cites the plan's policy and the record, and missing evidence is asked for, never held against "
+              "the patient.",
+         chips=[("Source-available", VIOLET), ("Uses Perfuse", BLUE)]),
     dict(key="bitdispatcher", name="bitdispatcher", accent="#f97316", icon=icon_bitdispatcher,
          tagline="Open-source computer-aided dispatch.",
          body="CAD with built-in records management, mobile units and radio data, for emergency "
@@ -306,7 +328,7 @@ def standalone_icon(inner, name, desc):
             f'{inner}</svg>\n')
 
 
-ROWS = [("perfuse", "bitvoice"), ("bitdispatcher", "biodream")]
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream",)]
 
 
 def main():
