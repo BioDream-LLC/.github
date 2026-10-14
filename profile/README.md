@@ -3,7 +3,8 @@
 <a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/banner-dark.svg?v=4"><img alt="BioDream LLC: private, on-device AI and open-source software for healthcare and public safety." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/banner-light.svg?v=4" width="100%"></picture></a>
 
 **We build software that has to work when it matters,** and that keeps people's data where it belongs.
-An AI companion that runs on your phone, and engines for hospitals, health plans and emergency services.
+An AI companion that runs on your phone, engines for hospitals, health plans and emergency services, and
+checked rules for the small chips that run machines.
 
 </div>
 
@@ -20,7 +21,8 @@ An AI companion that runs on your phone, and engines for hospitals, health plans
 </p>
 
 <p align="center">
-<a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=5"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS planned." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=5" width="415"></picture></a>
+<a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=6"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS planned." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=6" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC/quorum"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-dark.svg?v=5"><img title="quorum: open the source on GitHub →" alt="quorum: checked rules for machines, on an $11 chip. Source-available, Pico 2 and Uno R4, not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-light.svg?v=5" width="415"></picture></a>
 </p>
 
 | | |
@@ -28,13 +30,14 @@ An AI companion that runs on your phone, and engines for hospitals, health plans
 | **Perfuse** | [perfuse.health](https://perfuse.health) · [Source](https://github.com/BioDream-LLC/perfuse) · [Download](https://github.com/BioDream-LLC/perfuse/releases/latest) |
 | **Vaglio** | [Source](https://github.com/BioDream-LLC/vaglio) · [In plain words (slides)](https://github.com/BioDream-LLC/vaglio/raw/main/docs/Vaglio-overview.pptx) · [Works with Perfuse](https://github.com/BioDream-LLC/vaglio#behind-perfuse) |
 | **BitVoice** | [bitvoice.org](https://bitvoice.org) · [Source](https://github.com/BioDream-LLC/bitvoice) · [What works today](https://github.com/BioDream-LLC/bitvoice#what-works-today) |
+| **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
 | **bitdispatcher** | Repository coming soon |
 | **BioDream** | [biodream.ai](https://biodream.ai) · [Google Play](https://play.google.com/store/apps/details?id=com.biodream.anima) |
 
 ## What we hold ourselves to
 
 - 🔒 **Your data stays yours.** BioDream runs its AI on the phone. Our engines run on your servers. Nothing is sent to us that we do not need.
-- 🧩 **Open where it counts.** Infrastructure that hospitals and emergency services depend on is Apache-2.0, with no paid modules and no licence meters. Vaglio's source is published too, free for any health plan to run.
+- 🧩 **Open where it counts.** Infrastructure that hospitals and emergency services depend on is Apache-2.0, with no paid modules and no licence meters. Vaglio's source is published too, free for any health plan to run. quorum's source is published for any noncommercial use.
 - ✅ **Proven, not promised.** We test against real software and published conformance suites, not mocks, and we say plainly what is not done yet.
 
 <div align="center">

@@ -141,6 +141,34 @@ def icon_bitdispatcher(x, y, s):
     return icon_frame(x, y, s, BITDISPATCHER_INNER)
 
 
+QUORUM_INNER = (
+    '<defs><linearGradient id="qmg" gradientUnits="userSpaceOnUse" x1="20" y1="20" x2="76" y2="76">'
+    '<stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#14b8a6"/><stop offset="1" stop-color="#7c3aed"/>'
+    '</linearGradient></defs>'
+    '<g fill="#94a3b8"><rect x="38" y="18" width="5" height="8" rx="1.5"/><rect x="53" y="18" width="5" height="8" rx="1.5"/>'
+    '<rect x="38" y="70" width="5" height="8" rx="1.5"/><rect x="53" y="70" width="5" height="8" rx="1.5"/></g>'
+    '<rect x="30" y="26" width="36" height="44" rx="7" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>'
+    '<g stroke="#a78bfa" stroke-width="3" stroke-linecap="round"><path d="M16 34 L40 48"/><path d="M16 48 H40"/>'
+    '<path d="M16 62 L40 48"/></g>'
+    '<circle cx="16" cy="34" r="3.6" fill="#38bdf8"/><circle cx="16" cy="48" r="3.6" fill="#fbbf24"/>'
+    '<circle cx="16" cy="62" r="3.6" fill="#a78bfa"/>'
+    '<circle cx="48" cy="48" r="9" fill="url(#qmg)"/>'
+    '<path d="M44 48.4 l3 3 l5.5 -6" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
+    '<path d="M57 48 H82" stroke="url(#qmg)" stroke-width="3.5" stroke-linecap="round"/>')
+
+
+def icon_quorum(x, y, s):
+    return icon_frame(x, y, s, QUORUM_INNER)
+
+
+QUORUM = dict(key="quorum", name="quorum", accent="#14b8a6", icon=icon_quorum,
+              tagline="Checked rules for machines, on an $11 chip.",
+              body="Engineers write a machine's rules in plain words; quorum tries every situation that could ever "
+                   "happen before the rules run, then decides on a Pico 2 or an Uno R4 with its reasons. Imports "
+                   "HAZOP, LOPA and FMEA worksheets; an AI can draft, a person approves.",
+              chips=[("Source-available", VIOLET), ("Pico 2 · Uno R4", GREEN), ("Not yet certified", AMBER)])
+
+
 PRODUCTS = [
     dict(key="biodream", name="BioDream", accent="#f58220", icon=icon_biodream,
          tagline="An offline AI companion that feels.",
@@ -328,7 +356,8 @@ def standalone_icon(inner, name, desc):
             f'{inner}</svg>\n')
 
 
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream",)]
+PRODUCTS.append(QUORUM)
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream", "quorum")]
 
 
 def main():
