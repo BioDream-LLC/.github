@@ -21,8 +21,8 @@ checked rules for the small chips that run machines.
 </p>
 
 <p align="center">
-<a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=6"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS planned." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=6" width="415"></picture></a>
-<a href="https://github.com/BioDream-LLC/quorum"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-dark.svg?v=5"><img title="quorum: open the source on GitHub →" alt="quorum: checked rules for machines, on an $11 chip. Source-available, Pico 2 and Uno R4, not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-light.svg?v=5" width="415"></picture></a>
+<a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=7"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS planned." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=7" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC/quorum"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-dark.svg?v=7"><img title="quorum: open the source on GitHub →" alt="quorum: checked rules for small machines. Source-available, Pico 2 and Uno R4, not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-light.svg?v=7" width="415"></picture></a>
 </p>
 
 | | |

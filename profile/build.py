@@ -162,7 +162,7 @@ def icon_quorum(x, y, s):
 
 
 QUORUM = dict(key="quorum", name="quorum", accent="#14b8a6", icon=icon_quorum,
-              tagline="Checked rules for machines, on an $11 chip.",
+              tagline="Checked rules for small machines.",
               body="Engineers write a machine's rules in plain words; quorum tries every situation that could ever "
                    "happen before the rules run, then decides on a Pico 2 or an Uno R4 with its reasons. Imports "
                    "HAZOP, LOPA and FMEA worksheets; an AI can draft, a person approves.",
