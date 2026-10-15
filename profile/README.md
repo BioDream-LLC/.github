@@ -28,7 +28,7 @@ checked rules for the small chips that run machines.
 | | |
 |---|---|
 | **Perfuse** | [perfuse.health](https://perfuse.health) · [Source](https://github.com/BioDream-LLC/perfuse) · [Download](https://github.com/BioDream-LLC/perfuse/releases/latest) |
-| **Vaglio** | [Source](https://github.com/BioDream-LLC/vaglio) · [In plain words (slides)](https://github.com/BioDream-LLC/vaglio/raw/main/docs/Vaglio-overview.pptx) · [Works with Perfuse](https://github.com/BioDream-LLC/vaglio#behind-perfuse) |
+| **Vaglio** | [Try the demo](https://vaglio.perfuse.health:8443) · [Source](https://github.com/BioDream-LLC/vaglio) · [In plain words (slides)](https://github.com/BioDream-LLC/vaglio/raw/main/docs/Vaglio-overview.pptx) · [Works with Perfuse](https://github.com/BioDream-LLC/vaglio#behind-perfuse) |
 | **BitVoice** | [bitvoice.org](https://bitvoice.org) · [Source](https://github.com/BioDream-LLC/bitvoice) · [What works today](https://github.com/BioDream-LLC/bitvoice#what-works-today) |
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
 | **bitdispatcher** | Repository coming soon |
