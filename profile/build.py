@@ -169,6 +169,28 @@ QUORUM = dict(key="quorum", name="quorum", accent="#14b8a6", icon=icon_quorum,
               chips=[("Source-available", VIOLET), ("Pico 2 · Uno R4", GREEN), ("Not yet certified", AMBER)])
 
 
+PROVA_INNER = (
+    '<defs><linearGradient id="pvg" gradientUnits="userSpaceOnUse" x1="22" y1="16" x2="74" y2="80">'
+    '<stop offset="0" stop-color="#a5b4fc"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#6366f1"/>'
+    '</linearGradient></defs>'
+    '<path d="M31 74 V22 H52 a15 15 0 0 1 0 30 H41" fill="none" stroke="url(#pvg)" stroke-width="8" '
+    'stroke-linecap="round" stroke-linejoin="round"/>'
+    '<path d="M50 66 l7 7 l15 -16" fill="none" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" '
+    'stroke-linejoin="round"/>')
+
+
+def icon_prova(x, y, s):
+    return icon_frame(x, y, s, PROVA_INNER)
+
+
+PROVA = dict(key="prova", name="prova", accent="#6366f1", icon=icon_prova,
+             tagline="Financial protocol tests, proved.",
+             body="Drives ISO 20022, ISO 8583 and FIX at payment hosts, card switches and trading venues, and proves "
+                  "whether each one behaved as it must: every verdict cites its rule and evidence, re-checked by a "
+                  "SAT solver and a second engine.",
+             chips=[("Source-available", VIOLET), ("Live demo", GREEN), ("Go", TEAL)])
+
+
 PRODUCTS = [
     dict(key="biodream", name="BioDream", accent="#f58220", icon=icon_biodream,
          tagline="An offline AI companion that feels.",
@@ -357,7 +379,8 @@ def standalone_icon(inner, name, desc):
 
 
 PRODUCTS.append(QUORUM)
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream", "quorum")]
+PRODUCTS.append(PROVA)
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream", "quorum"), ("prova",)]
 
 
 def main():

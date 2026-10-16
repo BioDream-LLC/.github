@@ -25,19 +25,24 @@ checked rules for the small chips that run machines.
 <a href="https://github.com/BioDream-LLC/quorum"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-dark.svg?v=7"><img title="quorum: open the source on GitHub →" alt="quorum: checked rules for small machines. Source-available, Pico 2 and Uno R4, not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-light.svg?v=7" width="415"></picture></a>
 </p>
 
+<p align="center">
+<a href="https://github.com/BioDream-LLC/prova"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-prova-dark.svg?v=1"><img title="prova: open the source on GitHub →" alt="prova: financial protocol tests, proved. ISO 20022, ISO 8583 and FIX; source-available, live demo, Go." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-prova-light.svg?v=1" width="415"></picture></a>
+</p>
+
 | | |
 |---|---|
 | **Perfuse** | [perfuse.health](https://perfuse.health) · [Source](https://github.com/BioDream-LLC/perfuse) · [Download](https://github.com/BioDream-LLC/perfuse/releases/latest) |
 | **Vaglio** | [Try the demo](https://vaglio.perfuse.health:8443) · [Source](https://github.com/BioDream-LLC/vaglio) · [In plain words (slides)](https://github.com/BioDream-LLC/vaglio/raw/main/docs/Vaglio-overview.pptx) · [Works with Perfuse](https://github.com/BioDream-LLC/vaglio#behind-perfuse) |
 | **BitVoice** | [bitvoice.org](https://bitvoice.org) · [Source](https://github.com/BioDream-LLC/bitvoice) · [What works today](https://github.com/BioDream-LLC/bitvoice#what-works-today) |
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
+| **prova** | [Try the demo](https://prova.perfuse.health:9443) · [Source](https://github.com/BioDream-LLC/prova) · [The manual](https://prova.perfuse.health:9443/manual) |
 | **bitdispatcher** | Repository coming soon |
 | **BioDream** | [biodream.ai](https://biodream.ai) · [Google Play](https://play.google.com/store/apps/details?id=com.biodream.anima) |
 
 ## What we hold ourselves to
 
 - 🔒 **Your data stays yours.** BioDream runs its AI on the phone. Our engines run on your servers. Nothing is sent to us that we do not need.
-- 🧩 **Open where it counts.** Infrastructure that hospitals and emergency services depend on is Apache-2.0, with no paid modules and no licence meters. Vaglio's source is published too, free for any health plan to run. quorum's source is published for any noncommercial use.
+- 🧩 **Open where it counts.** Infrastructure that hospitals and emergency services depend on is Apache-2.0, with no paid modules and no licence meters. Vaglio's source is published too, free for any health plan to run. quorum's source is published for any noncommercial use. prova's source is published too, free for any small business.
 - ✅ **Proven, not promised.** We test against real software and published conformance suites, not mocks, and we say plainly what is not done yet.
 
 <div align="center">
