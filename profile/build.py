@@ -409,7 +409,7 @@ def standalone_icon(inner, name, desc):
 PRODUCTS.append(QUORUM)
 PRODUCTS.append(PROVA)
 PRODUCTS.append(BRYANAI)
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream", "quorum"), ("prova", "bryanai")]
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("biodream", "bryanai")]
 
 
 def main():
