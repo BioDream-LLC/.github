@@ -26,7 +26,8 @@ checked rules for the small chips that run machines.
 </p>
 
 <p align="center">
-<a href="https://github.com/BioDream-LLC/prova"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-prova-dark.svg?v=1"><img title="prova: open the source on GitHub →" alt="prova: financial protocol tests, proved. ISO 20022, ISO 8583 and FIX; source-available, live demo, Go." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-prova-light.svg?v=1" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC/prova"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-prova-dark.svg?v=2"><img title="prova: open the source on GitHub →" alt="prova: financial protocol tests, proved. ISO 20022, ISO 8583 and FIX; source-available, live demo, Go." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-prova-light.svg?v=2" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bryanai-dark.svg?v=1"><img title="bryanAI: source pending results of the 2027 ICCMA contest" alt="bryanAI: a reasoning engine for argumentation. C++ on CaDiCaL, source pending results of the 2027 ICCMA contest." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bryanai-light.svg?v=1" width="415"></picture></a>
 </p>
 
 | | |
@@ -36,6 +37,7 @@ checked rules for the small chips that run machines.
 | **BitVoice** | [bitvoice.org](https://bitvoice.org) · [Source](https://github.com/BioDream-LLC/bitvoice) · [What works today](https://github.com/BioDream-LLC/bitvoice#what-works-today) |
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
 | **prova** | [Try the demo](https://prova.perfuse.health:9443) · [Source](https://github.com/BioDream-LLC/prova) · [The manual](https://prova.perfuse.health:9443/manual) |
+| **bryanAI** | Source pending results of the 2027 ICCMA contest |
 | **bitdispatcher** | Repository coming soon |
 | **BioDream** | [biodream.ai](https://biodream.ai) · [Google Play](https://play.google.com/store/apps/details?id=com.biodream.anima) |
 

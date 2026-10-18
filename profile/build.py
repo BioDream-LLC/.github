@@ -191,6 +191,34 @@ PROVA = dict(key="prova", name="prova", accent="#6366f1", icon=icon_prova,
              chips=[("Source-available", VIOLET), ("Live demo", GREEN), ("Go", TEAL)])
 
 
+BRYANAI_INNER = (
+    '<defs><linearGradient id="bag" gradientUnits="userSpaceOnUse" x1="18" y1="18" x2="78" y2="78">'
+    '<stop offset="0" stop-color="#7dd3fc"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#0284c7"/>'
+    '</linearGradient></defs>'
+    # Attacks between arguments: the two grey arguments attack the one at the bottom; the top one defends it.
+    '<g stroke="#94a3b8" stroke-width="3" stroke-linecap="round" fill="none">'
+    '<path d="M30 35 L42 58"/><path d="M66 35 L54 58"/><path d="M42 30 H32"/><path d="M54 30 H64"/></g>'
+    '<g fill="#94a3b8"><path d="M44.5 62 l-7 -3.5 l5.5 -3.2 Z"/><path d="M51.5 62 l7 -3.5 l-5.5 -3.2 Z"/>'
+    '<path d="M30 30 l6 -4 v8 Z"/><path d="M66 30 l-6 -4 v8 Z"/></g>'
+    '<g fill="#1e293b" stroke="#475569" stroke-width="2"><circle cx="24" cy="30" r="8"/><circle cx="72" cy="30" r="8"/></g>'
+    '<circle cx="48" cy="30" r="7" fill="url(#bag)"/>'
+    '<circle cx="48" cy="72" r="10" fill="url(#bag)"/>'
+    '<path d="M43.5 72.4 l3.2 3.2 l6 -6.6" fill="none" stroke="#fff" stroke-width="2.8" stroke-linecap="round" '
+    'stroke-linejoin="round"/>')
+
+
+def icon_bryanai(x, y, s):
+    return icon_frame(x, y, s, BRYANAI_INNER)
+
+
+BRYANAI = dict(key="bryanai", name="bryanAI", accent="#0ea5e9", icon=icon_bryanai,
+               tagline="A reasoning engine for argumentation.",
+               body="Decides which arguments stand when claims attack one another, built on the CaDiCaL SAT "
+                    "solver. Every answer is checked against the definition before it is given; when it "
+                    "cannot be sure, it says so rather than guess.",
+               chips=[("Source pending ICCMA 2027", AMBER), ("C++", TEAL)])
+
+
 PRODUCTS = [
     dict(key="biodream", name="BioDream", accent="#f58220", icon=icon_biodream,
          tagline="An offline AI companion that feels.",
@@ -380,7 +408,8 @@ def standalone_icon(inner, name, desc):
 
 PRODUCTS.append(QUORUM)
 PRODUCTS.append(PROVA)
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream", "quorum"), ("prova",)]
+PRODUCTS.append(BRYANAI)
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("biodream", "quorum"), ("prova", "bryanai")]
 
 
 def main():
