@@ -244,11 +244,11 @@ PRODUCTS = [
               "the patient.",
          chips=[("Source-available", VIOLET), ("Uses Perfuse", BLUE)]),
     dict(key="bitdispatcher", name="bitdispatcher", accent="#f97316", icon=icon_bitdispatcher,
-         tagline="Open-source computer-aided dispatch.",
-         body="CAD with built-in records management, mobile units and radio data, for emergency "
-              "communications centres. It connects to any call-handling system through open standards "
-              "(NENA i3, EIDO).",
-         chips=[("In development", VIOLET), ("Apache 2.0", BLUE)]),
+         tagline="Open-source 911 dispatch (CAD).",
+         body="One Go binary: units recommended by road time, an offline dispatch map, a screen for every "
+              "monitor, mark-outs, a mobile terminal, NIBRS and NCIC. Calls arrive from any call-handling "
+              "system by NENA i3 and EIDO, or from BitVoice.",
+         chips=[("Apache 2.0", BLUE), ("Fire · EMS · police", GREEN), ("911 · not yet certified", AMBER)]),
 ]
 
 # Layouts. Sizes are chosen for the size the image is shown at: about 960 px wide on a desktop,

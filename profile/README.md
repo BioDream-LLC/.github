@@ -19,7 +19,8 @@ everything here:
 - **Healthcare.** Vaglio decides prior authorization and cannot deny care without proving why. It sits behind
   Perfuse, the integration engine that moves the clinical data.
 - **Telecom and 911.** BitVoice routes calls with a rulebook that explains every route it takes, built to a 911
-  reliability bar. bitdispatcher, the dispatch system, is next.
+  reliability bar. bitdispatcher, the dispatch system, sends the
+  units, with an offline map and a screen for every monitor.
 - **Payments and trading.** prova proves whether a payment host, card switch or trading venue gave the right
   answer, not just a well-formed one.
 - **Machines.** quorum checks a machine's rules against every situation before they run, then decides on an
@@ -47,7 +48,7 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 
 <p align="center">
 <a href="https://github.com/BioDream-LLC/bitvoice"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitvoice-dark.svg?v=6"><img title="BitVoice: open the source on GitHub →" alt="BitVoice: open-source business communications and 911. Apache 2.0; phone system, contact centre and unified communications; 911 not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitvoice-light.svg?v=6" width="415"></picture></a>
-<a href="https://github.com/BioDream-LLC"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-dark.svg?v=6"><img title="bitdispatcher: repository coming soon" alt="bitdispatcher: open-source computer-aided dispatch. In development, Apache 2.0." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-light.svg?v=6" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC/bitdispatcher"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-dark.svg?v=7"><img title="bitdispatcher: open the source on GitHub →" alt="bitdispatcher: open-source 911 911 dispatch (CAD). Apache 2.0; fire, EMS and police; 911 not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-light.svg?v=7" width="415"></picture></a>
 </p>
 
 ### Payments and machines
@@ -69,7 +70,7 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 | **Perfuse** | [perfuse.health](https://perfuse.health) · [Source](https://github.com/BioDream-LLC/perfuse) · [Download](https://github.com/BioDream-LLC/perfuse/releases/latest) |
 | **Vaglio** | [Try the demo](https://vaglio.perfuse.health:8443) · [Source](https://github.com/BioDream-LLC/vaglio) · [In plain words (slides)](https://github.com/BioDream-LLC/vaglio/raw/main/docs/Vaglio-overview.pptx) · [Works with Perfuse](https://github.com/BioDream-LLC/vaglio#behind-perfuse) |
 | **BitVoice** | [bitvoice.org](https://bitvoice.org) · [Source](https://github.com/BioDream-LLC/bitvoice) · [Everything it does](https://github.com/BioDream-LLC/bitvoice#everything-it-does) |
-| **bitdispatcher** | Repository coming soon |
+| **bitdispatcher** | [Source](https://github.com/BioDream-LLC/bitdispatcher) · [Everything it does](https://github.com/BioDream-LLC/bitdispatcher#everything-it-does) · [The manual (PDF)](https://github.com/BioDream-LLC/bitdispatcher/blob/main/docs/manual/bitdispatcher-manual.pdf) |
 | **prova** | [Try the demo](https://prova.perfuse.health:9443) · [Source](https://github.com/BioDream-LLC/prova) · [The manual](https://prova.perfuse.health:9443/manual) |
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
 | **bryanAI** | Source pending results of the 2027 ICCMA contest |
