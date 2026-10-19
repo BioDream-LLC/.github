@@ -70,7 +70,7 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 | **Perfuse** | [perfuse.health](https://perfuse.health) · [Source](https://github.com/BioDream-LLC/perfuse) · [Download](https://github.com/BioDream-LLC/perfuse/releases/latest) |
 | **Vaglio** | [Try the demo](https://vaglio.perfuse.health:8443) · [Source](https://github.com/BioDream-LLC/vaglio) · [In plain words (slides)](https://github.com/BioDream-LLC/vaglio/raw/main/docs/Vaglio-overview.pptx) · [Works with Perfuse](https://github.com/BioDream-LLC/vaglio#behind-perfuse) |
 | **BitVoice** | [bitvoice.org](https://bitvoice.org) · [Source](https://github.com/BioDream-LLC/bitvoice) · [Everything it does](https://github.com/BioDream-LLC/bitvoice#everything-it-does) |
-| **bitdispatcher** | [Try the demo](https://bitdispatcher.perfuse.health) · [Source](https://github.com/BioDream-LLC/bitdispatcher) · [Everything it does](https://github.com/BioDream-LLC/bitdispatcher#everything-it-does) · [The manual (PDF)](https://github.com/BioDream-LLC/bitdispatcher/blob/main/docs/manual/bitdispatcher-manual.pdf) |
+| **bitdispatcher** | [bitdispatcher.com](https://bitdispatcher.com) · [Try the demo](https://demo.bitdispatcher.com) · [Source](https://github.com/BioDream-LLC/bitdispatcher) · [Everything it does](https://github.com/BioDream-LLC/bitdispatcher#everything-it-does) · [The manual (PDF)](https://github.com/BioDream-LLC/bitdispatcher/blob/main/docs/manual/bitdispatcher-manual.pdf) |
 | **prova** | [Try the demo](https://prova.perfuse.health:9443) · [Source](https://github.com/BioDream-LLC/prova) · [The manual](https://prova.perfuse.health:9443/manual) |
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
 | **bryanAI** | Source pending results of the 2027 ICCMA contest |
@@ -84,7 +84,7 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 
 <div align="center">
 
-[**biodream.ai**](https://biodream.ai) · [**perfuse.health**](https://perfuse.health) · [**bitvoice.org**](https://bitvoice.org) · [**firstmind@biodream.ai**](mailto:firstmind@biodream.ai)
+[**biodream.ai**](https://biodream.ai) · [**perfuse.health**](https://perfuse.health) · [**bitvoice.org**](https://bitvoice.org) · [**bitdispatcher.com**](https://bitdispatcher.com) · [**firstmind@biodream.ai**](mailto:firstmind@biodream.ai)
 
 <sub>BioDream LLC · United States</sub>
 
