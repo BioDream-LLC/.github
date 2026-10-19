@@ -225,18 +225,18 @@ PRODUCTS = [
          body="A fine-tuned model running entirely on your phone, with a 16-dimension emotion engine, seven "
               "stages of closeness, and long-term memory that comes up only when it is relevant. "
               "No conversation ever leaves the device.",
-         chips=[("Android · available", GREEN), ("100% on-device", ORANGE), ("iOS · planned", GREY)]),
+         chips=[("Android · available", GREEN), ("100% on-device", ORANGE), ("iOS · under development", GREY)]),
     dict(key="perfuse", name="Perfuse", accent="#3b82f6", icon=icon_perfuse,
          tagline="Open-source healthcare integration engine.",
          body="HL7 v2, FHIR, DICOM, X12 and CDA in one static binary, with all four CMS-0057-F payer APIs, "
               "tested with Inferno. A modern alternative to Mirth Connect: no JVM, no installer, no licence fee.",
          chips=[("Apache 2.0", BLUE), ("Inferno tested", GREEN), ("Go", TEAL)]),
     dict(key="bitvoice", name="BitVoice", accent="#14b8a6", icon=icon_bitvoice,
-         tagline="Open-source phone system and NG911 call handling.",
-         body="One Go binary: a complete office phone system, NG911 call handling, a P25 radio dispatch "
-              "console and NG911 Core Services, configured from a built-in web console and built to the "
-              "911 reliability bar.",
-         chips=[("Apache 2.0", BLUE), ("PBX · working", GREEN), ("911 · not yet certified", AMBER)]),
+         tagline="Open-source business communications and 911.",
+         body="One Go binary: a phone system, contact centre, video, chat and SMS, hosting for many "
+              "organisations, an AI receptionist, and NG911 call handling with a P25 radio dispatch console, "
+              "all from a built-in web console and built to the 911 reliability bar.",
+         chips=[("Apache 2.0", BLUE), ("PBX · contact centre · UC", GREEN), ("911 · not yet certified", AMBER)]),
     dict(key="vaglio", name="Vaglio", accent="#a855f7", icon=icon_vaglio,
          tagline="Prior authorization that proves its answer.",
          body="A decision engine for health plans that cannot deny care without proving why. Every answer "

@@ -46,8 +46,8 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 ### Telecom and public safety
 
 <p align="center">
-<a href="https://github.com/BioDream-LLC/bitvoice"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitvoice-dark.svg?v=5"><img title="BitVoice: open the source on GitHub →" alt="BitVoice: open-source phone system and NG911 call handling. Apache 2.0, PBX working, 911 not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitvoice-light.svg?v=5" width="415"></picture></a>
-<a href="https://github.com/BioDream-LLC"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-dark.svg?v=5"><img title="bitdispatcher: repository coming soon" alt="bitdispatcher: open-source computer-aided dispatch. In development, Apache 2.0." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-light.svg?v=5" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC/bitvoice"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitvoice-dark.svg?v=6"><img title="BitVoice: open the source on GitHub →" alt="BitVoice: open-source business communications and 911. Apache 2.0; phone system, contact centre and unified communications; 911 not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitvoice-light.svg?v=6" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-dark.svg?v=6"><img title="bitdispatcher: repository coming soon" alt="bitdispatcher: open-source computer-aided dispatch. In development, Apache 2.0." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bitdispatcher-light.svg?v=6" width="415"></picture></a>
 </p>
 
 ### Payments and machines
@@ -61,7 +61,7 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 
 <p align="center">
 <a href="https://github.com/BioDream-LLC"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bryanai-dark.svg?v=3"><img title="bryanAI: source pending results of the 2027 ICCMA contest" alt="bryanAI: a reasoning engine for argumentation. C++ on CaDiCaL, source pending results of the 2027 ICCMA contest." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bryanai-light.svg?v=3" width="415"></picture></a>
-<a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=9"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS planned." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=9" width="415"></picture></a>
+<a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=10"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS under development." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=10" width="415"></picture></a>
 </p>
 
 | | |
