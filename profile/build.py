@@ -245,9 +245,10 @@ PRODUCTS = [
          chips=[("Source-available", VIOLET), ("Uses Perfuse", BLUE)]),
     dict(key="bitdispatcher", name="bitdispatcher", accent="#f97316", icon=icon_bitdispatcher,
          tagline="Open-source 911 dispatch (CAD).",
-         body="One Go binary: units recommended by road time, an offline dispatch map, a screen for every "
-              "monitor, mark-outs, a mobile terminal, NIBRS and NCIC. Calls arrive from any call-handling "
-              "system by NENA i3 and EIDO, or from BitVoice.",
+         body="One Go binary for the 911 centre: units recommended by road time, an offline dispatch map, "
+              "a screen for every monitor, fire-house and police boards with mark-outs and status checks, a "
+              "supervisor board, a mobile terminal, NIBRS and NCIC, all from a built-in web console. Calls "
+              "arrive by NENA i3 and EIDO, or from BitVoice.",
          chips=[("Apache 2.0", BLUE), ("Fire · EMS · police", GREEN), ("911 · not yet certified", AMBER)]),
 ]
 
