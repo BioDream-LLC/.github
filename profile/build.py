@@ -376,7 +376,7 @@ def banner(theme):
     rungs = [x for x in range(40, 1280, 80) if x % 320 not in (0,)]
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">',
            '<title id="t">BioDream LLC</title>',
-           '<desc id="d">Private, on-device AI and open-source software for healthcare and public safety.</desc>',
+           '<desc id="d">Software that proves its decisions, for healthcare, payments, telecom and machines.</desc>',
            f'<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{bg[0]}"/>'
            f'<stop offset="0.6" stop-color="{bg[1]}"/><stop offset="1" stop-color="{bg[2]}"/></linearGradient>'
            f'<linearGradient id="orange" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f58220"/><stop offset="1" stop-color="#ffb347"/></linearGradient>'
@@ -392,8 +392,8 @@ def banner(theme):
     out.append(f'</g><path d="{helix}" stroke="url(#orange)" stroke-width="14"/><path d="{helix2}" stroke="url(#indigo)" stroke-width="14"/></g>')
     out.append(f'<g font-family="{FONT}" text-anchor="middle">'
                f'<text x="{W/2}" y="160" font-size="124" font-weight="800" fill="{title}" letter-spacing="-2">BioDream <tspan fill="#f58220">LLC</tspan></text>'
-               f'<text x="{W/2}" y="232" font-size="46" fill="{sub}">Private, on-device AI and open-source software</text>'
-               f'<text x="{W/2}" y="290" font-size="46" fill="{sub}">for healthcare and public safety.</text>'
+               f'<text x="{W/2}" y="232" font-size="46" fill="{sub}">Software that proves its decisions,</text>'
+               f'<text x="{W/2}" y="290" font-size="46" fill="{sub}">for healthcare, payments, telecom and machines.</text>'
                '</g></svg>\n')
     return "".join(out)
 
