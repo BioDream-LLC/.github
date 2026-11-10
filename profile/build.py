@@ -219,6 +219,27 @@ BRYANAI = dict(key="bryanai", name="bryanAI", accent="#0ea5e9", icon=icon_bryana
                chips=[("Source pending ICCMA 2027", AMBER), ("C++", TEAL)])
 
 
+HYPERNEWS_INNER = (
+    # Hyper News's own mark (a globe with a red dot), scaled from its 32-unit icon.
+    '<g transform="scale(3)" fill="none" stroke="#f9fafb">'
+    '<circle cx="16" cy="16" r="10.5" stroke-width="2"/>'
+    '<path d="M5.5 16h21M16 5.5c-3.6 3.2-5.2 6.7-5.2 10.5s1.6 7.3 5.2 10.5M16 5.5c3.6 3.2 5.2 6.7 5.2 10.5s-1.6 7.3-5.2 10.5" '
+    'stroke-width="1.3"/></g>'
+    '<circle cx="64.5" cy="31.5" r="9.6" fill="#ef4444"/>')
+
+
+def icon_hypernews(x, y, s):
+    return icon_frame(x, y, s, HYPERNEWS_INNER)
+
+
+HYPERNEWS = dict(key="hypernews", name="Hyper News", accent="#ef4444", icon=icon_hypernews,
+                 tagline="The news, by what happened.",
+                 body="Every killing, crash, flood or arrest the news reports, anywhere, on one map, with the "
+                      "figures reconciled across independent reports and every statement linked to the sentence "
+                      "it came from. No language model reads the news.",
+                 chips=[("Free to read", GREEN), ("Closed source", GREY)])
+
+
 PRODUCTS = [
     dict(key="biodream", name="BioDream", accent="#f58220", icon=icon_biodream,
          tagline="An offline AI companion that feels.",
@@ -410,7 +431,8 @@ def standalone_icon(inner, name, desc):
 PRODUCTS.append(QUORUM)
 PRODUCTS.append(PROVA)
 PRODUCTS.append(BRYANAI)
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("biodream", "bryanai")]
+PRODUCTS.append(HYPERNEWS)
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("hypernews",), ("biodream", "bryanai")]
 
 
 def main():
