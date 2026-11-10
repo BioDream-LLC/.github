@@ -25,9 +25,9 @@ everything here:
   answer, not just a well-formed one.
 - **Machines.** quorum checks a machine's rules against every situation before they run, then decides on an
   $11 chip with its reasons.
+- **The core.** bryanAI is the argumentation engine, built on the CaDiCaL SAT solver.
 - **News.** Hyper News sorts the world's news by what happened, and calls a figure confirmed only when two
   independent reports agree.
-- **The core.** bryanAI is the argumentation engine, built on the CaDiCaL SAT solver.
 
 ## Who builds it
 
@@ -60,17 +60,17 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 <a href="https://github.com/BioDream-LLC/quorum"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-dark.svg?v=9"><img title="quorum: open the source on GitHub →" alt="quorum: checked rules for small machines. Source-available, Pico 2 and Uno R4, not yet certified." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-quorum-light.svg?v=9" width="415"></picture></a>
 </p>
 
-### News
-
-<p align="center">
-<a href="https://hyper-news.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-dark.svg?v=1"><img title="Hyper News: visit hyper-news.com →" alt="Hyper News: the world's news, sorted by what happened. Free to read, closed source." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-light.svg?v=1" width="415"></picture></a>
-</p>
-
 ### The reasoning core, and BioDream on your phone
 
 <p align="center">
 <a href="https://github.com/BioDream-LLC"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bryanai-dark.svg?v=3"><img title="bryanAI: source pending results of the 2027 ICCMA contest" alt="bryanAI: a reasoning engine for argumentation. C++ on CaDiCaL, source pending results of the 2027 ICCMA contest." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-bryanai-light.svg?v=3" width="415"></picture></a>
 <a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=10"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS under development." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=10" width="415"></picture></a>
+</p>
+
+### News
+
+<p align="center">
+<a href="https://hyper-news.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-dark.svg?v=1"><img title="Hyper News: visit hyper-news.com →" alt="Hyper News: the world's news, sorted by what happened. Free to read, closed source." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-light.svg?v=1" width="415"></picture></a>
 </p>
 
 | | |
@@ -81,9 +81,9 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 | **bitdispatcher** | [bitdispatcher.com](https://bitdispatcher.com) · [Try the demo](https://demo.bitdispatcher.com) · [Source](https://github.com/BioDream-LLC/bitdispatcher) · [Everything it does](https://github.com/BioDream-LLC/bitdispatcher#everything-it-does) · [The manual (PDF)](https://github.com/BioDream-LLC/bitdispatcher/blob/main/docs/manual/bitdispatcher-manual.pdf) |
 | **prova** | [Try the demo](https://prova.perfuse.health:9443) · [Source](https://github.com/BioDream-LLC/prova) · [The manual](https://prova.perfuse.health:9443/manual) |
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
-| **Hyper News** | [hyper-news.com](https://hyper-news.com) · [Corrections](https://hyper-news.com/corrections) |
 | **bryanAI** | Source pending results of the 2027 ICCMA contest |
 | **BioDream** | [biodream.ai](https://biodream.ai) · [Google Play](https://play.google.com/store/apps/details?id=com.biodream.anima) |
+| **Hyper News** | [hyper-news.com](https://hyper-news.com) · [Corrections](https://hyper-news.com/corrections) |
 
 ## What we hold ourselves to
 
