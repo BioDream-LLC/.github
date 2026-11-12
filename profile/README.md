@@ -69,16 +69,11 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 <a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=10"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS under development." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=10" width="415"></picture></a>
 </p>
 
-### For developers
+### For developers and news
 
 <p align="center">
-<a href="https://github.com/BioDream-LLC/zyth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-zyth-dark.svg?v=1"><img title="Zyth: open the spec and libraries on GitHub →" alt="Zyth: AI code, checked before it runs. Free to use, open spec, preview." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-zyth-light.svg?v=1" width="415"></picture></a>
-</p>
-
-### News
-
-<p align="center">
-<a href="https://hyper-news.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-dark.svg?v=1"><img title="Hyper News: visit hyper-news.com →" alt="Hyper News: the world's news, sorted by what happened. Free to read, closed source." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-light.svg?v=1" width="415"></picture></a>
+<a href="https://github.com/BioDream-LLC/zyth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-zyth-dark.svg?v=2"><img title="Zyth: open the spec and libraries on GitHub →" alt="Zyth: AI code, checked before it runs. Free to use, open spec, preview." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-zyth-light.svg?v=2" width="415"></picture></a>
+<a href="https://hyper-news.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-dark.svg?v=2"><img title="Hyper News: visit hyper-news.com →" alt="Hyper News: the world's news, sorted by what happened. Free to read, closed source." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-hypernews-light.svg?v=2" width="415"></picture></a>
 </p>
 
 | | |

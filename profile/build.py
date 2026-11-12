@@ -454,7 +454,7 @@ PRODUCTS.append(PROVA)
 PRODUCTS.append(BRYANAI)
 PRODUCTS.append(HYPERNEWS)
 PRODUCTS.append(ZYTH)
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("biodream", "bryanai"), ("zyth",), ("hypernews",)]
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("biodream", "bryanai"), ("zyth", "hypernews")]
 
 
 def main():
