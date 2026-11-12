@@ -240,6 +240,27 @@ HYPERNEWS = dict(key="hypernews", name="Hyper News", accent="#ef4444", icon=icon
                  chips=[("Free to read", GREEN), ("Closed source", GREY)])
 
 
+ZYTH_INNER = (
+    '<defs><linearGradient id="zyg" gradientUnits="userSpaceOnUse" x1="22" y1="24" x2="74" y2="72">'
+    '<stop offset="0" stop-color="#ff4fd8"/><stop offset=".5" stop-color="#8b5cff"/><stop offset="1" stop-color="#22d3ee"/>'
+    '</linearGradient></defs>'
+    '<path d="M28.5 30 H67.5 L28.5 66 H67.5" fill="none" stroke="url(#zyg)" stroke-width="9" stroke-linecap="round" '
+    'stroke-linejoin="round"/>'
+    '<circle cx="67.5" cy="30" r="6.6" fill="#a3ff5c"/>')
+
+
+def icon_zyth(x, y, s):
+    return icon_frame(x, y, s, ZYTH_INNER)
+
+
+ZYTH = dict(key="zyth", name="Zyth", accent="#8b5cff", icon=icon_zyth,
+            tagline="AI code, checked before it runs.",
+            body="Tensor shapes, types and devices are checked before anything runs, and every error comes "
+                 "with its fix. Then it runs at Go and Rust speed, on GPUs from a laptop to a data center, "
+                 "in the browser and inside React.",
+            chips=[("Free to use", GREEN), ("Open spec", BLUE), ("Preview", AMBER)])
+
+
 PRODUCTS = [
     dict(key="biodream", name="BioDream", accent="#f58220", icon=icon_biodream,
          tagline="An offline AI companion that feels.",
@@ -432,7 +453,8 @@ PRODUCTS.append(QUORUM)
 PRODUCTS.append(PROVA)
 PRODUCTS.append(BRYANAI)
 PRODUCTS.append(HYPERNEWS)
-ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("biodream", "bryanai"), ("hypernews",)]
+PRODUCTS.append(ZYTH)
+ROWS = [("perfuse", "vaglio"), ("bitvoice", "bitdispatcher"), ("prova", "quorum"), ("biodream", "bryanai"), ("zyth",), ("hypernews",)]
 
 
 def main():

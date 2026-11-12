@@ -25,6 +25,8 @@ everything here:
   answer, not just a well-formed one.
 - **Machines.** quorum checks a machine's rules against every situation before they run, then decides on an
   $11 chip with its reasons.
+- **AI work.** Zyth is a programming language that checks a model's tensor shapes before it runs, and
+  says where every number came from and how to fix it.
 - **The core.** bryanAI is the argumentation engine, built on the CaDiCaL SAT solver.
 - **News.** Hyper News sorts the world's news by what happened, and calls a figure confirmed only when two
   independent reports agree.
@@ -67,6 +69,12 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 <a href="https://biodream.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-dark.svg?v=10"><img title="BioDream: visit biodream.ai →" alt="BioDream: an offline AI companion that feels. Android available, 100% on-device, iOS under development." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-biodream-light.svg?v=10" width="415"></picture></a>
 </p>
 
+### For developers
+
+<p align="center">
+<a href="https://github.com/BioDream-LLC/zyth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-zyth-dark.svg?v=1"><img title="Zyth: open the spec and libraries on GitHub →" alt="Zyth: AI code, checked before it runs. Free to use, open spec, preview." src="https://raw.githubusercontent.com/BioDream-LLC/.github/main/profile/assets/gen/card-zyth-light.svg?v=1" width="415"></picture></a>
+</p>
+
 ### News
 
 <p align="center">
@@ -83,17 +91,18 @@ Questions, pilots and commercial licences: [**firstmind@biodream.ai**](mailto:fi
 | **quorum** | [Source](https://github.com/BioDream-LLC/quorum) · [In plain words (slides)](https://github.com/BioDream-LLC/quorum/blob/main/docs/quorum.pdf) · [Download the studio](https://github.com/BioDream-LLC/quorum/releases/latest) |
 | **bryanAI** | Source pending results of the 2027 ICCMA contest |
 | **BioDream** | [biodream.ai](https://biodream.ai) · [Google Play](https://play.google.com/store/apps/details?id=com.biodream.anima) |
+| **Zyth** | [zyth.io](https://zyth.io) · [Try it in your browser](https://zyth.io/play/) · [Spec, libraries and package tools](https://github.com/BioDream-LLC/zyth) · [The specification](https://github.com/BioDream-LLC/zyth/blob/main/ZYTH-SPEC.md) |
 | **Hyper News** | [hyper-news.com](https://hyper-news.com) · [Corrections](https://hyper-news.com/corrections) |
 
 ## What we hold ourselves to
 
 - ✅ **Proven, not promised.** Every decision carries its proof, and every product is tested against real software and published conformance suites, not mocks. We say plainly what is not done yet.
-- 🧩 **Open where it counts.** Infrastructure that hospitals and emergency services depend on is Apache-2.0, with no paid modules and no licence meters, and anyone may fork it. Vaglio's source is published too, free for any health plan to run. quorum's source is published for any noncommercial use, and prova's is free for any small business; commercial licences are available for both.
+- 🧩 **Open where it counts.** Infrastructure that hospitals and emergency services depend on is Apache-2.0, with no paid modules and no licence meters, and anyone may fork it. Vaglio's source is published too, free for any health plan to run. quorum's source is published for any noncommercial use, and prova's is free for any small business; commercial licences are available for both. Zyth's specification, standard library and package tools are Apache-2.0 or MIT, and its compiler is free to use.
 - 🔒 **Your data stays yours.** Our engines run on your servers, and the BioDream app runs its AI on the phone. Nothing is sent to us that we do not need.
 
 <div align="center">
 
-[**biodream.ai**](https://biodream.ai) · [**perfuse.health**](https://perfuse.health) · [**bitvoice.org**](https://bitvoice.org) · [**bitdispatcher.com**](https://bitdispatcher.com) · [**hyper-news.com**](https://hyper-news.com) · [**firstmind@biodream.ai**](mailto:firstmind@biodream.ai)
+[**biodream.ai**](https://biodream.ai) · [**perfuse.health**](https://perfuse.health) · [**bitvoice.org**](https://bitvoice.org) · [**bitdispatcher.com**](https://bitdispatcher.com) · [**hyper-news.com**](https://hyper-news.com) · [**zyth.io**](https://zyth.io) · [**firstmind@biodream.ai**](mailto:firstmind@biodream.ai)
 
 <sub>BioDream LLC · United States</sub>
 
